@@ -1,0 +1,18 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/USERNAME/.openclaw/workspace"
+    }
+  },
+  "gateway": {
+    "mode": "local"
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "allowFrom": ["+62XXXXXXXXXX"],
+      "selfChatMode": true
+    }
+  }
+}
